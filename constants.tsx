@@ -81,16 +81,42 @@ export const EXPERIENCE: Experience[] = [
 
 export const PROJECTS: Project[] = [
   {
-    title: "Bookstore E-Commerce",
-    description: "A responsive e-commerce frontend built with ReactJS and Tailwind CSS. Features product listing, cart management, and state optimization for fast UI load speeds.",
-    technologies: ["ReactJS", "Tailwind CSS", "Axios", "State Management"],
-    image: "https://picsum.photos/600/400?random=1"
-  },
+  title: "Banking Management System",
+  description: "A secure full-stack banking application supporting account creation, deposits, withdrawals, and peer-to-peer fund transfers with real-time transaction validation. Implements ACID-compliant transactional operations to ensure data consistency and integrity. Features JWT-based authentication using HttpOnly cookies and role-based access control (USER/ADMIN).",
+  technologies: [
+    "Spring Boot",
+    "Spring Security",
+    "PostgreSQL",
+    "Spring Data JPA",
+    "JWT Authentication",
+    "HttpOnly Cookies",
+    "ReactJS",
+    "Tailwind CSS",
+    "Axios",
+    "React Router",
+    "Vite",
+    "Maven",
+    "Render",
+    "Vercel"
+  ],
+  image: "/assets/skills/project1.png"
+},
   {
-    title: "News System (RDSO)",
-    description: "Internal web portal for news updates. focused on modern UI/UX principles, ensuring accessibility and responsiveness across all devices.",
-    technologies: ["HTML", "JavaScript", "Tailwind CSS"],
-    image: "https://picsum.photos/600/400?random=2"
+    title: "AI-Powered Job Portal with Resume Matching System",
+    description: "A full-stack AI-powered job portal that enables recruiters to post jobs and automatically match candidates based on resume analysis. Features secure JWT authentication, role-based access (User/Recruiter/Admin), job applications, and resume upload with intelligent candidate filtering. Built with a responsive UI and deployed on cloud platforms.",
+   technologies: [
+  "ReactJS",
+  "Tailwind CSS",
+  "JavaScript",
+  "Spring Boot",
+  "Spring Security",
+  "JWT Authentication",
+  "REST APIs",
+  "PostgreSQL",
+  "Render",
+  "Vercel"
+],
+    image: "/assets/skills/project2.png"
   },
   {
     title: "Portfolio Website",
