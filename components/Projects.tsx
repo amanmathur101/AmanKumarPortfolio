@@ -28,10 +28,10 @@ const Projects: React.FC = () => {
               />
               {/* Overlay Links */}
               <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20 bg-dark/60 backdrop-blur-sm">
-                 <a href="https://github.com/amanmathur101/ai-job-portal-resume-matching" className="p-3 bg-white text-dark rounded-full hover:bg-primary hover:text-white transition-colors" title="View Code">
+                 <a href="https://github.com/amanmathur101/BankApp" className="p-3 bg-white text-dark rounded-full hover:bg-primary hover:text-white transition-colors" title="https://bank-app-ten-ebon.vercel.app">
                    <Github size={20} />
                  </a>
-                 <a href="#" className="p-3 bg-white text-dark rounded-full hover:bg-primary hover:text-white transition-colors" title="Live Demo">
+                 <a href="https://github.com/amanmathur101/ai-job-portal-resume-matching" className="p-3 bg-white text-dark rounded-full hover:bg-primary hover:text-white transition-colors" title="https://ai-job-portal-resume-matching.vercel.app">
                    <ExternalLink size={20} />
                  </a>
               </div>
